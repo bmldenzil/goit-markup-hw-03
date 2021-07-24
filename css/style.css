@@ -1,90 +1,70 @@
 body
-    {font-family: Roboto;
-    
-    background-color: #E5E5E5; 
-    color: #212121;
-    }
+
     /*header*/
 .header{
-    position: absolute;
-    display: flex;
-    width: 1600px;
-    height: 80px;
-    background-color: #ffffff;
-  
+
 }
 .logo1{
-    position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-    text-decoration: none;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    color: #212121;
 
 }
 .logo1:hover, .logo1:focus{
-    color: #2196F3;}
-
+ 
+}
 .logo{
 
-    color: #2196F3;
 }
 .list-header{ 
-    list-style: none;
-    display: flex;
-    position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
+    
 }
+/* main */
 .main-top{
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    background-color: #2F303A;
-    color: #ffffff;
+   
 }
 .main-text{
-    position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-/* or 136% */
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+   
 }
 .buton-top{
-    width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-    position: absolute;
+    
 
+}
+.aside{
 
-font-weight: bold;
-font-size: 16px;
-line-height: 30px;
+}
+.aside-list{
 
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+}
+.aside-title{
 
-color: #FFFFFF;
+}
+.aside-text{
+
+}
+.image{
+
+}
+/* mambers list */
+.list-mambers{
+
+}
+.item-name{
+
+}
+.item-text{
+
+}
+/* footer */
+.footer{
+
+}
+.logo1-footer{
+
+}
+.logo-footer{
+
+}
+.footer-address{
+
+}
+.footer-link{
+
 }
