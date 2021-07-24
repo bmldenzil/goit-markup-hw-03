@@ -100,17 +100,20 @@ body{
 }
 /* footer */
 .footer{
+    background-color: #2F303A;
 
 }
 .logo1-footer{
+    color: #2196F3;
 
 }
-.logo-footer{
+.logo-footer{color: #fff;
 
 }
 .footer>address{
-
+    color: #757575;
 }
 .footer-link{
+    color: #757575;
 
 }
