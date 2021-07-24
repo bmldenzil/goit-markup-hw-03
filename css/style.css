@@ -1,49 +1,95 @@
-body
-
+body{
+    background-color: #E5E5E5;
+    color: rgba(117, 117, 117, 1);
+}
+/* цвет заголовков #212121 */
+/* цвет текста #757575 #FFFFFF */
+/* акцент #2196F3 */
+/* основной фон #E5E5E5 */
+/* второстепенный фон #2F303A */
+/* фон команды #F5F4FA */
     /*header*/
 .header{
+    background-color: #fff;
+}
+
+.header ul{
+    list-style: none;
 
 }
 .logo1{
+    color: #212121 ;
 
 }
 .logo1:hover, .logo1:focus{
- 
+ color: #2196F3;
 }
 .logo{
+    color: #2196F3;
 
 }
-.list-header{ 
+.item-open{ 
+    color: #212121;
     
+}
+.item-open:focus, 
+.item-open:hover{
+    color: #2196F3;
+}
+.nav-link{
+    color: #757575;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #2196F3;
 }
 /* main */
 .main-top{
+    background-color: #2F303A;
    
 }
 .main-text{
+    color: #fff;
    
 }
 .buton-top{
+    background-color: #2196F3;
+    color: #fff;
     
 
 }
 .aside{
+   
 
 }
 .aside-list{
+    list-style: none;
 
 }
 .aside-title{
+    color: #212121;
 
 }
 .aside-text{
 
 }
+.image-tutle{
+    color: #212121;
+
+}
 .image{
+    list-style: none;
 
 }
 /* mambers list */
+.mambers-title{
+    
+    color: #212121;
+
+}
 .list-mambers{
+    list-style: none;
+    background-color: #F5F4FA;
 
 }
 .item-name{
@@ -62,7 +108,7 @@ body
 .logo-footer{
 
 }
-.footer-address{
+.footer>address{
 
 }
 .footer-link{
