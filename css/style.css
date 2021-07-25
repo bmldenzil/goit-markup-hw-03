@@ -1,6 +1,20 @@
+:root { 
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #E5E5E5;
+    --secondary-bg-color: #2F303A;
+
+
+}
+
+
 body{
-    background-color: #E5E5E5;
-    color: rgba(117, 117, 117, 1);
+    font-family: Roboto;
+    font-style: normal;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+
 }
 /* цвет заголовков #212121 */
 /* цвет текста #757575 #FFFFFF */
@@ -17,35 +31,68 @@ body{
     list-style: none;
 
 }
-.logo1{
-    color: #212121 ;
+.logo-one{
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color) ;
+    
 
 }
-.logo1:hover, .logo1:focus{
- color: #2196F3;
+.logo-one:hover, .logo-one:focus{
+ color: var(--title-text-color);
 }
 .logo{
-    color: #2196F3;
+    color: var(--accent-color);
 
 }
 .item-open{ 
-    color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
     
 }
 .item-open:focus, 
 .item-open:hover{
-    color: #2196F3;
+    color: var(--accent-color);
+}
+.item-open.open{
+    color: var(--accent-color);
+
+}
+.item-open.open:hover,
+.item-open.open:focus{
+    color: var(--primary-text-color);
+
 }
 .nav-link{
-    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 .nav-link:hover,
 .nav-link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 /* main */
 .main-top{
-    background-color: #2F303A;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: var(--secondary-bg-color);
    
 }
 .main-text{
@@ -53,28 +100,50 @@ body{
    
 }
 .buton-top{
-    background-color: #2196F3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
     color: #fff;
     
 
 }
-.aside{
-   
 
-}
 .aside-list{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     list-style: none;
 
 }
 .aside-title{
-    color: #212121;
+    color: var(--title-text-color);
 
 }
 .aside-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
 
 }
 .image-tutle{
-    color: #212121;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-color);
 
 }
 .image{
@@ -84,7 +153,7 @@ body{
 /* mambers list */
 .mambers-title{
     
-    color: #212121;
+    color: var(--title-text-color);
 
 }
 .list-mambers{
@@ -93,27 +162,81 @@ body{
 
 }
 .item-name{
-
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
 }
 .item-text{
-
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 /* footer */
 .footer{
-    background-color: #2F303A;
+    background-color:  var(--secondary-bg-color);
 
 }
-.logo1-footer{
-    color: #2196F3;
+.logo-one-footer{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
 
 }
-.logo-footer{color: #fff;
+.logo-footer{
+    color: #fff;
 
 }
 .footer>address{
-    color: #757575;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 .footer-link{
-    color: #757575;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 
+}
+/* портфолио */
+.btn{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+.port-item{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color)
+}
+.port-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color)
 }
