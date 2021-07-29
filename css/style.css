@@ -1,11 +1,4 @@
-html{
-    box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-box-sizing: inherit;
-}
+
 :root { 
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -42,10 +35,14 @@ h1,h2,h3,h4,h5,h6,p{
     width: 1440px;
     display: inline-block;
 
-    /* width: 1270px; */
- 
     margin-top: 24px;
     margin-left: 215px;
+}
+.header-flex{
+    display: flex;
+}
+.nav-flex{
+    display: flex;
 }
 .header ul{
     list-style: none;
@@ -73,10 +70,19 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 .list-header{
+    display: flex;
     margin: 0px;
     padding: 0px;
+    align-items: center;
+}
+.item-header:not(:last-child){
+    margin-right: 50px;
 }
 .item-open{ 
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -146,6 +152,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .sidebar-list{
     margin: 0px;
+    padding: 0px;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -181,10 +188,14 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .image{
     margin: 0px;
+    padding: 0px;
     list-style: none;
 
 }
 /* mambers list */
+.member-section{
+    background-color: var(--primary-bg-color);
+}
 .mambers-title{
     
     color: var(--title-text-color);
@@ -192,8 +203,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .list-mambers{
     margin: 0px;
+    padding: 0px;
     list-style: none;
-    background-color: #F5F4FA;
+    
 
 }
 .item-name{
@@ -250,6 +262,41 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 /* портфолио */
+.port-btn-list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+.btn{
+    list-style: none;
+    min-width: 73px;
+    padding: 6x, 22px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+.btn:focus
+.btn:hover{
+    list-style: none;
+    background-color: var(--accent-color);
+    color: #fff
+}
+.port-list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.port-image{
+    margin: 0px;
+    padding: 0px;
+
+}
 .btn{
     font-style: normal;
     font-weight: 500;
