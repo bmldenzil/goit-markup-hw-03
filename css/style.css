@@ -31,14 +31,21 @@ body{
 /* основной фон #E5E5E5 */
 /* второстепенный фон #2F303A */
 /* фон команды #F5F4FA */
-    /*header*/
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}    /*header*/
 .header{
     background-color: #fff;
 }
 .conteiner{
+    width: 1440px;
     display: inline-block;
-    width: 1270px;
-    background-color: red;
+
+    /* width: 1270px; */
+ 
+    margin-top: 24px;
+    margin-left: 215px;
 }
 .header ul{
     list-style: none;
@@ -64,6 +71,10 @@ body{
 .logo{
     color: var(--accent-color);
 
+}
+.list-header{
+    margin: 0px;
+    padding: 0px;
 }
 .item-open{ 
     font-style: normal;
@@ -100,6 +111,9 @@ body{
 }
 /* main */
 .main-top{
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -111,26 +125,27 @@ body{
    
 }
 .main-text{
+    margin: 0px;
     color: #fff;
    
 }
 .buton-top{
     display: inline-block;
-    padding: 11px 32px;
+
     border-radius: 4px;
     min-width: 300px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
-    letter-spacing: 0.06em;
+
     background-color: var(--accent-color);
     color: #fff;
     
 
 }
 .sidebar-list{
+    margin: 0px;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -165,6 +180,7 @@ body{
 
 }
 .image{
+    margin: 0px;
     list-style: none;
 
 }
@@ -175,6 +191,7 @@ body{
 
 }
 .list-mambers{
+    margin: 0px;
     list-style: none;
     background-color: #F5F4FA;
 
