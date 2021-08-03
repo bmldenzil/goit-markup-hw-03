@@ -32,21 +32,27 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: #fff;
 }
 .conteiner{
-    width: 1440px;
-    display: inline-block;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+.header .conteiner{
     margin-top: 24px;
     margin-left: 215px;
 }
+}
+
 .header-flex{
     display: flex;
 }
 .nav-flex{
     display: flex;
 }
-.header ul{
+ul, a{
     list-style: none;
-
+    text-decoration: none;
 }
 .logo-one{
     
@@ -54,7 +60,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--title-text-color) ;
     text-decoration: none;
@@ -73,7 +79,7 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
     margin: 0px;
     padding: 0px;
-    align-items: center;
+    text-align: center;
 }
 .item-header:not(:last-child){
     margin-right: 50px;
@@ -86,7 +92,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     
@@ -107,7 +113,7 @@ h1,h2,h3,h4,h5,h6,p{
 .contact-link{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
@@ -116,34 +122,46 @@ h1,h2,h3,h4,h5,h6,p{
     color: var(--accent-color);
 }
 /* main */
+.main-top .conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .main-top{
-    height: 800px;
+    min-height: 800px;
     margin: 0px;
     padding: 0px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    
     background-color: var(--secondary-bg-color);
    
 }
 .main-text{
+    margin-top: 200px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     margin: 0px;
     color: #fff;
    
 }
 .buton-top{
-    display: inline-block;
+
+
+    margin-top: 30px;
+ 
+    text-align: center;
+    
 
     border-radius: 4px;
-    min-width: 300px;
+    width: 200px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
 
     background-color: var(--accent-color);
     color: #fff;
@@ -156,7 +174,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     list-style: none;
@@ -170,8 +188,9 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
+    text-transform: none;
 
 
 }
@@ -179,7 +198,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 41.16;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -197,7 +216,12 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: var(--primary-bg-color);
 }
 .mambers-title{
-    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 
 }
@@ -212,7 +236,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
@@ -235,10 +259,10 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #fff;
-
+    text-decoration: none;
 }
 .logo-footer{
     color: var(--accent-color);;
@@ -248,7 +272,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
@@ -256,7 +280,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 
@@ -269,21 +293,20 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 .btn{
-    list-style: none;
-    min-width: 73px;
-    padding: 6x, 22px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color)
+
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    border-radius: 4px;
 }
 .btn:focus
 .btn:hover{
-    list-style: none;
+
     background-color: var(--accent-color);
     color: #fff
 }
@@ -297,20 +320,12 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 0px;
 
 }
-.btn{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color)
-}
+
 .port-item{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color)
 }
@@ -318,7 +333,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color)
 }
