@@ -56,6 +56,9 @@ ul, a{
     text-decoration: none;
 }
 .logo-one{
+    display: flex;
+    align-items: center;
+    margin-right: 93px;
     
     font-family: Raleway;
     font-style: normal;
@@ -111,7 +114,17 @@ ul, a{
     color: var(--primary-text-color);
 
 }
+.contact-header{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.contact-link:not(:last-child){
+    margin-right: 50px;
+}
 .contact-link{
+
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -127,9 +140,10 @@ ul, a{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .main-top{
-    min-height: 800px;
+
     margin: 0px;
     padding: 0px;
     
@@ -137,7 +151,8 @@ ul, a{
    
 }
 .main-text{
-    margin-top: 200px;
+ 
+
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -145,7 +160,7 @@ ul, a{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin: 0px;
+    margin-top: 200px;
     color: #fff;
    
 }
@@ -153,6 +168,8 @@ ul, a{
 
 
     margin-top: 30px;
+    margin-bottom: 200px;
+    padding: 10px, 0px;
  
     text-align: center;
     
@@ -170,6 +187,8 @@ ul, a{
 
 }
 .sidebar-list{
+    display: flex;
+
     margin: 0px;
     padding: 0px;
     font-style: normal;
@@ -178,14 +197,23 @@ ul, a{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    list-style: none;
+
 
 }
 .sidebar-title{
+    display: inline-block;
+    margin-top: 97px;
+
     color: var(--title-text-color);
 
 }
+.sidebar-item:not(:last-child){
+    margin-right: 30px;
+}
 .sidebar-text{
+    display: inline-block;
+    margin-top: 10px;
+
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -193,30 +221,43 @@ ul, a{
     letter-spacing: 0.03em;
     text-transform: none;
 
-
 }
 .image-tutle{
+    margin-top: 94px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 41.16;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 
     color: var(--title-text-color);
 
 }
-.image{
-    margin: 0px;
+.image{display: flex;
+    justify-content: space-around;
+    
+    margin-top: 50px;
     padding: 0px;
-    list-style: none;
+    margin-bottom: 0px;
 
+
+}
+.image-list{
+    display: inline-block;
+    padding-bottom: -4px;
+}
+.image-list:not(:last-child){
+    margin-right: 30px;
 }
 /* mambers list */
 .member-section{
-    background-color: var(--primary-bg-color);
+    margin-top: 94px;
+    background-color: #f5f4f4;
 }
 .mambers-title{
+    margin-top: 94px;
+
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
