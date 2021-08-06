@@ -235,7 +235,7 @@ ul, a{
 .image{display: flex;
     justify-content: space-around;
     
-    margin-top: 50px;
+
     padding: 0px;
     margin-bottom: 0px;
 
@@ -264,6 +264,7 @@ ul, a{
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 
+
 }
 .list-mambers{
     display: flex;
@@ -271,8 +272,17 @@ ul, a{
     margin: 0px;
     padding: 0px;
     list-style: none;
+    margin-top: 50px;
+
     
 
+
+}
+.list-mambers li{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .item-name{
     margin-top: 30px;
@@ -296,6 +306,7 @@ ul, a{
 }
 /* footer */
 .footer{
+    margin-top: 94px;
     background-color:  var(--secondary-bg-color);
 
 }
@@ -345,7 +356,7 @@ ul, a{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: var(--primary-bg-color);
 
 }
 .footer .conteiner{
@@ -356,11 +367,16 @@ ul, a{
 /* портфолио */
 .port-btn-list{
     display: flex;
-
+    justify-content: center;
     list-style: none;
     margin: 0px;
+    margin-top: 94px;
     padding: 0px;
-
+    border: 1px solid #ECECEC;
+    background-color: #e5e5e5;
+}
+.btn-list:not(:last-child){
+margin-right: 8px;
 }
 
 .btn{
@@ -389,17 +405,31 @@ ul, a{
     color: #fff
 }
 .port-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     list-style: none;
     margin: 0px;
     padding: 0px;
+    margin-top: 50px;
+
+}
+.port-list li{
+    margin-top: 30px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 .port-image{
     margin: 0px;
     padding: 0px;
+    margin-bottom: -4px;
 
 }
 
+
 .port-item{
+    margin-top: 20px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -408,6 +438,8 @@ ul, a{
     color: var(--title-text-color)
 }
 .port-text{
+    margin-top: 4px;
+    margin-bottom: 20px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
