@@ -402,10 +402,11 @@ ul, a{
 }
 
 /* портфолио */
-
-.port-image-box{
-    padding: 15px;
+.port-btn-section{
+    display: flex;
+    padding: 94px 0;
 }
+
 
 .port-btn-list{
     display: flex;
@@ -414,8 +415,7 @@ ul, a{
     margin: 0px;
 
     padding: 0px;
-    border-bottom: 1px solid #ECECEC;
-    background-color: var(--primary-bg-color);
+
 }
 .btn-list:not(:last-child){
 padding-right: 8px;
@@ -448,8 +448,8 @@ padding-right: 8px;
 }
 .port-list{
     display: flex;
-
-    margin: 0px;
+    flex-wrap: wrap;    
+    margin: 0;
     padding: 0;
     margin-top: 50px;
 
@@ -458,24 +458,33 @@ padding-right: 8px;
 
 }
 .port-image-box{
-    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #EEEEEE;
+
 }
 .port-list li{
-    margin-top: 35px;
-    
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+
 }
+.port-list li:nth-child(3n+2){
+
+margin: 0 27px;
+
+
+}
+
 .port-image{
     margin: 0px;
     padding: 0px;
-    margin-bottom: -4px;
+
 
 }
 
 
 .port-item{
     margin-top: 20px;
+    margin-left: 24px;
+
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -485,6 +494,8 @@ padding-right: 8px;
 }
 .port-text{
     margin-top: 4px;
+    margin-left: 24px;
+    padding-bottom: 20px;
 
     font-style: normal;
     font-weight: normal;
