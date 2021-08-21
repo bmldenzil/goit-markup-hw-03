@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,h6,p{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
+    padding: 0 15px;
     
     
 
@@ -89,7 +89,7 @@ ul, a{
 }
 .item-open{ 
     display: block;
-    padding: 17px 15px;
+    padding: 17px 0;
 
     font-style: normal;
     font-weight: 500;
@@ -123,7 +123,7 @@ ul, a{
     margin-right: 50px;
 }
 .contact-link{
-    padding: 15px;
+    padding: 15px 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -188,7 +188,7 @@ ul, a{
 
 }
 .sidebar{
-    padding-top: 79px;
+    padding-top: 94px;
 }
 .sidebar .conteiner{
     display: flex;
@@ -273,8 +273,8 @@ ul, a{
 }
 .image-section{
     display: flex;
-    padding-top: 69px;
-    padding-bottom: 69px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     align-items: center;
 
 }
@@ -286,8 +286,8 @@ ul, a{
     
 }
 .member-section{
-    padding-bottom: 69px;
-    padding-top: 69px;
+    padding-bottom: 94px;
+    padding-top: 94px;
     background-color: #f5f4f4;
 }
 .mambers-title{
@@ -344,8 +344,8 @@ ul, a{
 }
 /* footer */
 .footer{
-    padding-top: 57px;
-    padding-bottom: 45px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color:  var(--secondary-bg-color);
 
 }
@@ -398,11 +398,17 @@ ul, a{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: rgba(255, 255, 255, 0.6);
 
 }
 
 /* портфолио */
+.port-body{
+    background-color: #fff;
+}
+.port-body .header{
+    border-bottom: 1px solid #ECECEC;
+}
 .port-btn-section{
     display: flex;
     padding: 94px 0;
@@ -459,19 +465,24 @@ padding-right: 8px;
 
 }
 .port-image-box{
-    background-color: #fff;
-    border: 1px solid #EEEEEE;
+padding: 20px 24px;
 
 }
 .port-list li{
+    background-color: #fff;
+    border: 1px solid #EEEEEE;
     margin-bottom: 30px;
 
 }
 .port-list li:nth-child(3n+2){
 
-margin: 0 27px;
+margin-left: 27px;
+margin-right: 27px;
 
 
+}
+.port-list li:nth-last-child(-n+3){
+    margin-bottom: 0;
 }
 
 .port-image{
@@ -484,7 +495,7 @@ margin: 0 27px;
 
 .port-item{
     margin-top: 20px;
-    margin-left: 24px;
+
 
     font-style: normal;
     font-weight: bold;
@@ -495,7 +506,7 @@ margin: 0 27px;
 }
 .port-text{
     margin-top: 4px;
-    margin-left: 24px;
+
     padding-bottom: 20px;
 
     font-style: normal;
